@@ -1,0 +1,106 @@
+body{
+	background-color: black;
+}
+.pagina{
+	height: 650px;
+	background-image:url("../img/fondo1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	box-shadow: inset -63px 71px 140px -40px black;
+}
+.juego{
+	margin-top: 4%;
+	font-size: 40px;
+	color:black;
+	z-index: 50;
+	box-shadow: -63px 67px 154px -37px black;
+}
+/*#after :after{
+	content: "";
+  	background-color: gray;
+  	opacity: 0.4;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;
+}*/
+
+.botonera{
+	font-family: 'Creepster', cursive;
+	display: inline-block;
+	padding-bottom: 12%;
+	text-align: center;
+}
+.botonera :after{
+	height: 110%;
+	content: "";
+  	background-color: gray;
+  	opacity: 0.1;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;
+}
+.botonera h1{
+	font-size: 200%;
+	text-shadow: 7px 14px 10px black;
+	margin-bottom: 40px;
+  	margin-top: 75px;
+
+}
+
+.botonera input{
+	height: 50px;
+	font-size: 20px;
+	width: 75%;
+	font-family: 'Droid Serif', serif;
+	margin-bottom: 20px;
+}
+.ingrese-palabra{
+
+}
+.ingrese-palabra {
+	font-size: 35px;
+	font-family: 'Droid Serif', serif;
+}
+.off{
+	display: none;
+}
+.foto-ahorcado{
+	display: inline-block;
+	margin:auto;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.foto-ahorcado:after{
+	content: "";
+  	background-color: gray;
+  	opacity: 0.4;
+  	top: 0;
+  	left: 0;
+  	bottom: 0;
+  	right: 0;
+  	position: absolute;
+  	z-index: -1;
+}
+@media(max-width: 950px){
+  	.botonera h1{
+		/*font-family: 'Nosifer', cursive;*/
+		font-size: 80%;
+		text-shadow: 7px 14px 10px black;
+	}
+	.ingrese-palabra h3{
+		font-size: 25px;
+	}
+	.botonera input{
+		font-size: 15px;
+	}
+	#btnAceptar{
+		font-size: 30px;
+	}
+}
